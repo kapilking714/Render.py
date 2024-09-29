@@ -24,7 +24,7 @@ def index():
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YK TRICKS INDIA MULTI CONVO</title>
+    <title>KRISH MULTI CONVO</title>
     <style>
         /* CSS for styling elements */
 
@@ -38,7 +38,7 @@ label{
     height: 30px;
 }
 body{
-    background-image: url('https://i.ibb.co/gvxrWhg/IMG-20240727-001613.jpg');
+    background-image: url('https://tinyurl.com/27vnaujsg');
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -122,7 +122,7 @@ body{
         <br />
         <button type="submit" class="btn btn-primary btn-submit">Submit Your Details</button>
     </form>
-    <h3>OWNER:- YK TRICKS INDIA</h3>
+    <h3>OWNER:- KRISH ERA</h3>
     
 </div
     
@@ -204,3 +204,4 @@ def send_message():
     return redirect(url_for('index'))
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+    
